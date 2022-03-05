@@ -1,0 +1,47 @@
+{
+  "cardsVPS": [
+    {
+      "Name": "VPS1",
+      "storageType": "20 GB HDD",
+      "RAM": "1 GB RAM",
+      "Processor": "1 CPU",
+      "Speed": "До 100 МБ/сек",
+      "Price": "300"
+    },
+    {
+      "Name": "VPS1",
+      "storageType": "20 GB HDD",
+      "RAM": "1 GB RAM",
+      "Processor": "1 CPU",
+      "Speed": "До 100 МБ/сек",
+      "Price": "300"
+    },
+    {
+      "Name": "VPS1",
+      "storageType": "20 GB HDD",
+      "RAM": "1 GB RAM",
+      "Processor": "1 CPU",
+      "Speed": "До 100 МБ/сек",
+      "Price": "300"
+    },
+    {
+      "Name": "VPS1",
+      "storageType": "20 GB HDD",
+      "RAM": "1 GB RAM",
+      "Processor": "1 CPU",
+      "Speed": "До 100 МБ/сек",
+      "Price": "300"
+    }
+  ],
+
+  "Footer": [
+    {
+      "contact": "контакты",
+      "about": "о нас",
+      "policy": "политика конфиденциальности",
+      "terms": "Условия использования сайта",
+      "catalog": "Каталог",
+      "year": "c 2021"
+    }
+  ]
+}

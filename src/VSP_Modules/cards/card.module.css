@@ -1,0 +1,165 @@
+.lineStyle {
+    margin: 0;
+    padding: 0 10px;
+    background: #fff;
+    display: inline-block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: rgba(28, 31, 116, 0.8);
+}
+
+.lineBlock {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.lineBlock:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    border-top: solid 1px rgba(28, 31, 116, 0.2);
+    transform: rotate(-0.18deg);
+    z-index: -1;
+}
+
+
+
+
+
+
+
+.container {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.goodsCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 17px;
+
+}
+
+.headBlock {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+
+}
+
+.cardHeadColor {
+    background: #A3CDAA;
+    filter: blur(30px);
+    z-index: 1;
+    padding: 5px;
+    width: 150px;
+    height: 35px;
+    position: absolute;
+}
+
+.cardHeadText {
+    z-index: 5;
+    position: relative;
+    margin-top: 1px;
+}
+
+
+.cardStringBlock {
+    display: flex;
+    margin-top: 31px;
+    justify-content: space-between;
+}
+
+.imgBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgBlock img {
+    margin-top: 8px;
+}
+
+.stringBlock {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stringBlock p {
+    margin-top: 10px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+
+.checkBoxButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.checkBoxButton button {
+
+    background: #A3CDAA;
+    border-start-start-radius: 8px;
+    border-end-start-radius: 8px;
+    border: none;
+    padding: 13px 47px 14px 65px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    height: 50px;
+}
+
+
+.checkBoxButton p {
+    background: #A3CDAA;
+    border-start-end-radius: 8px;
+    border-end-end-radius: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    border-left: 1px solid #FFFFFF;
+    padding: 13px 25px;
+    color: #FFFFFF;
+    margin: 0;
+}

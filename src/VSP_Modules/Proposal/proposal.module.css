@@ -1,0 +1,131 @@
+.proposal {
+    height: 435px;
+    background-image: url(../../Images/ServDock.jpg);
+    position: relative;
+    background-position: center;
+    background-image: bottom;
+    background-size: cover;
+
+
+}
+
+.proposalLayer {
+
+    background-color: rgba(28, 31, 116, 0.65);
+    height: 100%;
+    margin: auto;
+}
+
+.center {
+    padding-left: calc(50% - 400px);
+    padding-right: calc(50% - 400px);
+}
+
+.ProposalBlock {
+    padding-top: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Стиль для тега # */
+.tag {
+    color: #9C9C9C;
+}
+
+/* Заголовок для Виртуальный сервер: VPS в облаке*/
+.proposalHeading {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #bca5f3;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+/* зеленый подзаголовок для четырех подглав*/
+.subHeading {
+    color: rgb(12, 158, 12);
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin: 0;
+}
+
+.secSubHead {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #DFDFDF;
+    margin: 0;
+    padding-left: 13px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* правый блок в proposal*/
+.yellowBlock {
+    border: 6px solid #B7B966;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 13px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.yellowBlock p {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #DFDFDF;
+    margin: auto;
+
+}
+
+.yellowBlock h3 {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 117px;
+    color: #DFDFDF;
+    margin: 0;
+}
+
+
+.linkButton {
+    margin-top: 27px;
+    padding: 16px 52px;
+
+    background: rgba(38, 153, 50, 0.2);
+    border: 3px solid #269932;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #DFDFDF;
+}
+
+
+/* @media (max-width: 992px) {
+
+    .linkButton {
+        color: red;
+    }
+} */
